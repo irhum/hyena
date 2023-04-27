@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hyena"
+version = "0.1.0"
+description = ""
+authors = ["Irhum Shafkat <13271155+irhum@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jax = "^0.4.4"
+flax = "^0.6.8"
+einops = "^0.6.0"
+optax = "^0.1.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.22.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
