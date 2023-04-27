@@ -1,5 +1,5 @@
 # Hyena
-This repository provides a JAX/Flax implementation of the Hyena architecture introduced in [Poli et. al. (2023)](https://arxiv.org/abs/2302.10866). 
+This repository provides a JAX/Flax implementation of the Hyena architecture introduced in [Poli et. al. (2023)](https://arxiv.org/abs/2302.10866). A full training run of a small 1.5M parameter model, on the Shakespeare dataset can be found in the included `intro.ipynb`. This achieves a best validation loss of ~1.45, on par with the results in [nanoGPT](https://github.com/karpathy/nanoGPT).
 
 ## Details
 Specifically, the following is implemented:
